@@ -5,7 +5,6 @@
 
 ```
 $ docker run ubuntu
-
 $ docker run -it ubuntu bash
 ```
 
@@ -29,7 +28,6 @@ Ubuntu 20.04 and other versions of Debian Linux ship with Python 3 pre-installed
 
 ```
 # apt update
-
 # apt -y upgrade
 ```
 
@@ -70,7 +68,7 @@ Install all the dependencies required.
 
 ## 3. Start Web Server
 
-* Change the directory to /opt then run the following command.
+Change the directory to /opt then run the following command.
 ```
 # FLASK_APP=app.py flask run --host=0.0.0.0
 ```

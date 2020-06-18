@@ -1,6 +1,12 @@
-# Basic-webapp-Python-Application
+# Docker-webapp-Python-Application
 
-### 1. Setting Up Python 3
+### 1. Create a docker image 
+---
+> $docker run ubuntu
+> $docker run -it ubuntu bash
+
+
+### 2. Setting Up Python 3
 --- 
 Ubuntu 20.04 and other versions of Debian Linux ship with Python 3 pre-installed. To make sure that our versions are up-to-date, let’s update and upgrade the system with the apt command :
 
@@ -21,6 +27,21 @@ To manage software packages for Python, let’s install pip.
 Here I will use flask , so to install it run the below command.
 
 > pip3 install flask
+
+Install all the dependencies required.
+
+> apt-get install -y python3 python-setuptools python-dev build-essential python3-pip python3-mysqldb
+
+* copy source code from app.py
+* cat > /opt/app.py
+* paste the code and exit
+
+### 3. Start Web Server
+
+> FLASK_APP=app.py flask run --host=0.0.0.0
+
+
+
 
 ```
 http://<IP>:5000                            => Welcome

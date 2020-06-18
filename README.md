@@ -18,7 +18,7 @@ Copy your container ID :
 Copy your IP for later use :
 
 ```
-$ docker inspect _**ContainerID**_
+$ docker inspect <ContainerID>
 ```
 
 

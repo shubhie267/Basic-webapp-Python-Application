@@ -7,6 +7,15 @@
 
 > $ docker run -it ubuntu bash
 
+Copy your container ID :
+
+>  $ docker run -d ubuntu sleep 2000
+>  $ docker ps
+
+Copy your IP for later use :
+
+>  $ docker inspect _**ContainerID**_
+
 
 ## 2. Setting Up Python 3 in the container
 
@@ -47,19 +56,12 @@ Install all the dependencies required.
 ## 3. Start Web Server
 
 * Change the directory to /opt then run the following command.
-> # FLASK_APP=app.py flask run --host=0.0.0.0
+> FLASK_APP=app.py flask run --host=0.0.0.0
 
 
 
 ## 4. Run the Application
 
-Copy your container ID :
->  $ docker run -d ubuntu sleep 2000
->  $ docker ps
-
-Copy your IP :
->  $ docker inspect _**ContainerID**_
-  
 Open the browser and go to the url.
 
 ```

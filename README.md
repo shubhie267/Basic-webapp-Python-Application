@@ -1,11 +1,28 @@
-### Basic-webapp-Python-Application
+#### Basic-webapp-Python-Application
 
-*a*
-*b*
-
+### 1. Setting Up Python 3
 --- 
+Ubuntu 20.04 and other versions of Debian Linux ship with Python 3 pre-installed. To make sure that our versions are up-to-date, let’s update and upgrade the system with the apt command :
 
-#a
+> apt update
+> apt -y upgrade
+
+Once the process is complete, we can check the version of Python 3 that is installed in the system by typing:
+
+> python3 -V
+
+To manage software packages for Python, let’s install pip.
+
+> apt install -y python3-pip
+
+Here I will use flask , so to install it run the below command.
+
+> pip3 install flask
+
+
+
+
 
 ---
+___
 

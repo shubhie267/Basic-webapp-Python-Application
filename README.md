@@ -1,4 +1,4 @@
-#### Basic-webapp-Python-Application
+# Basic-webapp-Python-Application
 
 ### 1. Setting Up Python 3
 --- 
@@ -7,8 +7,7 @@ Ubuntu 20.04 and other versions of Debian Linux ship with Python 3 pre-installed
 > apt update
 > apt -y upgrade
 
-Once the process is complete, we can check the version of Python 3 that is installed in the system by typing: 
-![logo](https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/267_Python_logo-512.png)
+Once the process is complete, we can check the version of Python 3 that is installed in the system by typing:
 
 > python3 -V 
 

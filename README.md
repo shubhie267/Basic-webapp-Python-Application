@@ -22,6 +22,12 @@ Here I will use flask , so to install it run the below command.
 
 > pip3 install flask
 
+```
+http://<IP>:5000                            => Welcome
+http://<IP>:5000/how%20are%20you            => I am good, how about you?
+
+```
+
 
 
 

@@ -56,7 +56,7 @@ Copy your container ID :
 > docker ps
 
 Copy your IP :
-> docker inspect **container ID**
+> docker inspect _**container ID**_
   
 Open the browser and go to the url.
 

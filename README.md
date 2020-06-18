@@ -5,6 +5,7 @@
 Ubuntu 20.04 and other versions of Debian Linux ship with Python 3 pre-installed. To make sure that our versions are up-to-date, let’s update and upgrade the system with the apt command :
 
 > apt update
+
 > apt -y upgrade
 
 Once the process is complete, we can check the version of Python 3 that is installed in the system by typing:

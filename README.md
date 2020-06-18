@@ -2,14 +2,14 @@
 
 
 ## 1. Create a docker image 
----
+
 > $docker run ubuntu
 
 > $docker run -it ubuntu bash
 
 
 ## 2. Setting Up Python 3 in the container
---- 
+
 Ubuntu 20.04 and other versions of Debian Linux ship with Python 3 pre-installed. To make sure that our versions are up-to-date, let’s update and upgrade the system with the apt command :
 
 > apt update

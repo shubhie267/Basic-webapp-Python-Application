@@ -51,6 +51,15 @@ Install all the dependencies required.
 
 ## 4. Run the Application
 
+Copy your container ID :
+> docker run -d ubuntu sleep 2000
+> docker ps
+
+Copy your IP :
+> docker inspect <container ID>
+  
+Open the browser and go to the url.
+
 ```
 http://<IP>:5000                            => Welcome
 http://<IP>:5000/how%20are%20you            => I am good, how about you?

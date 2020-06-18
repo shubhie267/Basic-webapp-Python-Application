@@ -3,48 +3,63 @@
 
 ## 1. Create a docker image 
 
-> $ docker run ubuntu
+```
+$ docker run ubuntu
 
-> $ docker run -it ubuntu bash
+$ docker run -it ubuntu bash
+```
 
 Copy your container ID :
 
->  $ docker run -d ubuntu sleep 2000
->  $ docker ps
+ ```
+ $ docker run -d ubuntu sleep 2000
+ $ docker ps
+ ```
 
 Copy your IP for later use :
 
->  $ docker inspect _**ContainerID**_
+```
+$ docker inspect _**ContainerID**_
+```
 
 
 ## 2. Setting Up Python 3 in the container
 
 Ubuntu 20.04 and other versions of Debian Linux ship with Python 3 pre-installed. To make sure that our versions are up-to-date, let’s update and upgrade the system with the apt command :
 
-> # apt update
+```
+# apt update
 
-> # apt -y upgrade
+# apt -y upgrade
+```
 
 
 Once the process is complete, we can check the version of Python 3 that is installed in the system by typing:
 
-> # python3 -V 
-
+```
+# python3 -V 
+```
 
 
 To manage software packages for Python, let’s install pip.
 
-> # apt install -y python3-pip
+```
+# apt install -y python3-pip
+```
 
 
 Here I will use flask , so to install it run the below command.
 
-> # pip3 install flask
+```
+# pip3 install flask
+```
 
 
 Install all the dependencies required.
 
-> # apt-get install -y python3 python-setuptools python-dev build-essential python3-pip python3-mysqldb
+```
+# apt-get install -y python3 python-setuptools python-dev build-essential python3-pip python3-mysqldb
+```
 
 
 * copy source code from app.py
@@ -56,8 +71,9 @@ Install all the dependencies required.
 ## 3. Start Web Server
 
 * Change the directory to /opt then run the following command.
-> FLASK_APP=app.py flask run --host=0.0.0.0
-
+```
+# FLASK_APP=app.py flask run --host=0.0.0.0
+```
 
 
 ## 4. Run the Application
